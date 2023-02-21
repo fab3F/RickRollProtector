@@ -11,6 +11,7 @@ Mit diesem Addon wirst du nie wieder gerickrolled! Denn es schützt dich durch e
 Wenn es weitere Links gibt, die gesperrt werden sollen, sende diese bitte an **support@help.info.gf**. Danke!
 Made by fab3F.
 
+Bald auch im Chrome und Firefox Store erhältlich!
 
 ----------------------------------------------------------------
 
