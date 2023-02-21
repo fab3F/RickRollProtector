@@ -1,5 +1,5 @@
 document.getElementById("proceed-button").addEventListener("click", function() {
-  location.href = window.location.search.slice(1) + "?antirickroll=bypass";
+  location.href = window.location.search.slice(1) + "&rickrollprotector=bypass";
 });
   
 document.getElementById("primary-button").addEventListener("click", function() {
