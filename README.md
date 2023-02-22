@@ -10,7 +10,9 @@ Hier bei [https://fab3F.github.io/RickRollProtector](https://fab3F.github.io/Ric
 Mit diesem Addon wirst du nie wieder gerickrolled! Denn es schützt dich durch eine Warnung vor unbewusstem Aufrufen eines RickRolls. Damit bist du auf der sicheren Seite!
 Wenn es weitere Links gibt, die gesperrt werden sollen, sende diese bitte an **support@help.info.gf**. Danke!
 
-Bald auch im Chrome und Firefox Store erhältlich!
+Firefox Addon: https://addons.mozilla.org/de/firefox/addon/rickrollprotector/
+
+Bald auch im Chrome Web Store erhältlich!
 
 Made by fab3F.
 
