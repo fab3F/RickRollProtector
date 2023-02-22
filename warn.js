@@ -6,6 +6,6 @@ document.getElementById("primary-button").addEventListener("click", function() {
   if (history.length > 2) {
     history.go(-2);
   } else {
-    location.href = "about:blank";
+    window.close();
   }
 });

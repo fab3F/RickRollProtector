@@ -2214,4 +2214,6 @@
    min-width: auto;
  }
  
-
+ #primary-button:hover, #proceed-button:hover {
+  cursor: pointer
+}
