@@ -1,9 +1,15 @@
-const rickrolls = [];
+let rickrolls = [];
 
-fetch ("https://fab3F.github.io/rickrollprotector/list.txt")
-.then(x => x.text())
-.then(y => rickrolls = y.split("\n"))
-
+let rawFile = new XMLHttpRequest();
+rawFile.open("GET", "https://fab3F.github.io/rickrollprotector/list.txt", true);
+rawFile.onreadystatechange = function (){
+  if(rawFile.readyState === 4){
+    if(rawFile.status === 200 || rawFile.status == 0){
+      rickrolls = rawFile.responseText.split("\n");
+    }
+  }
+}
+rawFile.send(null);
 
 if(typeof location !== 'undefined' && rickrolls.some(id => location.href.includes(id)) && !location.href.includes("rickrollprotector=bypass")) {
   if (navigator.userAgent.indexOf("Firefox") > 0) {
@@ -12,4 +18,3 @@ if(typeof location !== 'undefined' && rickrolls.some(id => location.href.include
     location = chrome.runtime.getURL("error-chrome.html")+"?"+location.href;
   }
 }
-
