@@ -6,7 +6,7 @@
 
 
 # RickRollProtector
-Hier bei [https://fab3F.github.io/RickRollProtector](https://fab3F.github.io/RickRollProtector) kannst du alle wichtigen Informationen zu dem Addon einsehen!
+Hier bei [https://fab3F.github.io/rickrollprotector](https://fab3F.github.io/rickrollprotector) kannst du alle wichtigen Informationen zu dem Addon einsehen!
 Mit diesem Addon wirst du nie wieder gerickrolled! Denn es schützt dich durch eine Warnung vor unbewusstem Aufrufen eines RickRolls. Damit bist du auf der sicheren Seite!
 Wenn es weitere Links gibt, die gesperrt werden sollen, sende diese bitte an **support@help.info.gf**. Danke!
 
