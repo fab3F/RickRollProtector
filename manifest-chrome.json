@@ -3,7 +3,7 @@
   "version": "0.0.3.2",
   "author": "fab3F",
   "description": "Du wirst nie wieder gerickrolled werden! Du bist immer auf der sicheren Seite, wenn du dieses Addon benutzt.",
-  "homepage_url": "https://fab3F.github.io",
+  "homepage_url": "https://fab3F.github.io/rickrollprotector",
   "permissions": ["storage","scripting","activeTab","webRequest"],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [{
