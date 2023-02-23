@@ -7,5 +7,6 @@ document.getElementById("primary-button").addEventListener("click", function() {
     history.go(-2);
   } else {
     window.close();
+    location.href = "about:blank";
   }
 });
