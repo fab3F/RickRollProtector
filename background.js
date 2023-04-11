@@ -101,7 +101,12 @@ const rickrolls = [
   "6MIkXsFHeBk",
   "88iUchyd86M",
   "mW61VTLhNjQ",
-  "rTga41r3a4s"
+  "rTga41r3a4s",
+  "2v39YzT8AAQ",
+  "8ybW48rKBME",
+  "xbXoWRs2C8M",
+  "7lEodsmjeQU",
+  "3tcl2ornvU0"
 ];
 
 if(typeof location !== 'undefined' && rickrolls.some(id => location.href.includes(id)) && !location.href.includes("rickrollprotector=bypass")) {
