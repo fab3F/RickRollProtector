@@ -126,14 +126,13 @@
     <section class="py-4">
       <div class="container content">
         <h1 class="fw-light">RickRollProtector</h1>
-        <p class="lead py-2 pb-1" id="check">Installation des Addons wird geprüft.</p>
+        <p class="lead py-2 pb-1" id="check">Installation des Addons wird geprüft...</p>
         <p class="lead py-2 pb-1">Der RickRollProtector warnt dich jedes mal, wenn du auf einen Link geklickt hast, der zu einem RickRoll führt!</p>
-        <p class="lead py-2 pb-1">Die aktuellesten Downloads findest du immer <a href="https://github.com/fab3F/rickrollprotector" target="_blank">hier</a> auf GitHub.</p>
-        <p class="lead py-2 pb-1">Die aktuellste Version für Firefox ist verifiziert und du kannst sie offiziell von Firefox <a href="https://addons.mozilla.org/de/firefox/addon/rickrollprotector/" target="_blank">hier</a> installieren.</p>
+        <p class="lead py-2 pb-1">Die aktuellesten Downloads findest du immer auf <a href="https://github.com/fab3F/rickrollprotector" target="_blank">GitHub</a>. Die aktuellste Version für Firefox ist verifiziert und du kannst sie offiziell von Firefox <a href="https://addons.mozilla.org/de/firefox/addon/rickrollprotector/" target="_blank">hier</a> installieren.</p>
       </div>
     </section>
   </div>
-  <div id="rickelement000" style="display: none;">non</div>
+  <div id="rickelement000" style="display: block;"></div>
   <script type="text/javascript" style="display: none;" defer>
     setTimeout(function() {
       if(document.getElementById("rickelement000").innerHTML === "yes"){
@@ -141,7 +140,7 @@
       }else{
         document.getElementById("check").innerHTML = "Leider hast du den RickRollProtector noch nicht installiert! Dies ist ein großes Sicherheitsrisiko, da du nicht gegen RickRolls geschützt bist!";
       }
-    }, 3000);
+    }, 2100);
   </script>
 
   <!-- Footer -->
