@@ -16,7 +16,7 @@
   },
   "manifest_version": 3,
   "web_accessible_resources": [{
-    "resources": ["error-chrome.html", "background.js", "styles-chrome.css", "icon.png", "warn.js", "warn.png"],
+    "resources": ["error-opera.html", "background.js", "icon.png", "warn.js", "warn.png"],
     "matches": ["<all_urls>"]
   }],
   "update_url": "https://fab3F.github.io/rickrollprotector/updates.xml"

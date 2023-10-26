@@ -106,14 +106,56 @@ const rickrolls = [
   "8ybW48rKBME",
   "xbXoWRs2C8M",
   "7lEodsmjeQU",
-  "3tcl2ornvU0"
+  "3tcl2ornvU0",
+  "BBJa32lCaaY",
+  "SXHMnicI6Pg",
+  "96GnOB1iZQI",
+  "WXSLN5ZF9cs",
+  "Ves2WbZXals",
+  "Fw4hyBqj5xM",
+  "41iWg91yFv0",
+  "C_rf1OFyjTM",
+  "KFf7XMF1Y4Q",
+  "nX84KctJtG0",
+  "9O9lRpm-0sg",
+  "tVwUn4r4Byo",
+  "a1iHrWtCOZ8",
+  "LNew965FXZs",
+  "-p7XUf4GvVU",
+  "VmBOL3nfee8",
+  "M3DvMiHxckA",
+  "nsCIeklgp1M"
 ];
 
 if(typeof location !== 'undefined' && rickrolls.some(id => location.href.includes(id)) && !location.href.includes("rickrollprotector=bypass")) {
-  if (navigator.userAgent.indexOf("Firefox") > 0) {
-    location = chrome.runtime.getURL("error-firefox.html")+"?"+location.href;
-  }else{
+
+  var userAgent = navigator.userAgent;
+  if (userAgent.indexOf("MSIE") > 0 || userAgent.indexOf("Trident/") > 0) {
+  }
+  else if (userAgent.indexOf("Edge") > 0) {
+  }
+  else if (userAgent.indexOf("Chrome") > 0 && !(userAgent.indexOf("OPR") > 0 || userAgent.indexOf("Opera") > 0)) {
     location = chrome.runtime.getURL("error-chrome.html")+"?"+location.href;
+  }
+  else if (userAgent.indexOf("Firefox") > 0) {
+    location = chrome.runtime.getURL("error-firefox.html")+"?"+location.href;
+  }
+  else if (userAgent.indexOf("OPR") > 0 || userAgent.indexOf("Opera") > 0) {
+    const brands = navigator.userAgentData.brands;
+    const isOperaGX = brands.some(brand => {
+      return brand.brand === 'Opera GX';
+    });
+    if(isOperaGX){
+      location = chrome.runtime.getURL("error-opera.html")+"?"+location.href;
+    }else{
+      //Dann normales opera
+      location = chrome.runtime.getURL("error-opera.html")+"?"+location.href;
+    }
+  }
+  else if (userAgent.indexOf("Brave") > 0 && !(userAgent.indexOf("OPR") > 0 || userAgent.indexOf("Opera") > 0)) {
+  }
+  else {
+    location = chrome.runtime.getURL("error-opera.html")+"?"+location.href;
   }
 }
 
