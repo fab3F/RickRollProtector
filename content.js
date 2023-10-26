@@ -1,1 +1,7 @@
-document.getElementById("rickelement000").innerHTML = "yes";
+function edit() {
+    var element = document.getElementById("rickelement000");
+    if (element) {
+        element.innerHTML = "yes";
+    }
+}
+document.addEventListener("DOMContentLoaded", edit);
