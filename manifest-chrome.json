@@ -1,6 +1,6 @@
 {
   "name": "RickRollProtector",
-  "version": "0.0.3.6",
+  "version": "0.0.3.7",
   "author": "fab3F",
   "description": "Du wirst nie wieder gerickrolled werden! Du bist immer auf der sicheren Seite, wenn du dieses Addon benutzt.",
   "homepage_url": "https://fab3F.github.io/rickrollprotector",
@@ -9,6 +9,11 @@
   "content_scripts": [{
     "js": [ "background.js" ],
     "matches": [ "https://*.youtube.com/*" ],
+    "run_at": "document_start"
+  },
+  {
+    "js": [ "content.js" ],
+    "matches": [ "https://fab3F.github.io/rickrollprotector/*" ],
     "run_at": "document_start"
   }],
   "icons": {
