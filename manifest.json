@@ -1,7 +1,7 @@
 {
   "name": "RickRollProtector",
   "author": "fab3F",
-  "version": "0.1.0.0",
+  "version": "0.1.1.0",
   "description": "Du wirst nie wieder gerickrolled werden! Du bist immer auf der sicheren Seite, wenn du dieses Addon benutzt.",
   "permissions": ["storage","scripting","activeTab","webRequest"],
   "content_scripts": [{
