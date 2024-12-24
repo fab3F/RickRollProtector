@@ -10,62 +10,18 @@ Hier bei [https://fab3F.github.io/rickrollprotector](https://fab3F.github.io/ric
 Mit diesem Addon wirst du nie wieder gerickrolled! Denn es schützt dich durch eine Warnung vor unbewusstem Aufrufen eines RickRolls. Damit bist du auf der sicheren Seite!
 Wenn es weitere Links gibt, die gesperrt werden sollen, sende diese bitte an **fab3F@programmer.net**. Danke!
 
-Firefox Addon: https://addons.mozilla.org/de/firefox/addon/rickrollprotector/
-
-Bald auch im Chrome Web Store erhältlich!
-
 Made by fab3F.
 
-----------------------------------------------------------------
+## Installation
 
+Für **Firefox**: Lade das Addon hier aus dem offiziellen Store herunter: https://addons.mozilla.org/de/firefox/addon/rickrollprotector/<br>
+Alternantiv kannst du auch die .xpi-Datei aus dem neusten Release verwenden. <br>
+<br>
+Für **Chrome**: Aktuell ist leider keine Store-Version verfügbar.<br>
+1. Lade die .crx-Datei herunter. Das Addon sollte auf Chrome automatisch installiert werden. Sollte beim Installieren ein Fehler auftreten, dann:<br>
+2. Lade die .crx.zip herunter und entpacke sie in einen Ordner, der nicht gelöscht wird.<br>
+3. Aktiviere anschließend auf "chrome://extensions/" oben rechts in der Ecke den Entwicklermodus. Klicke dann oben links auf "Entpackte Erweiterung laden" und wähle den eben entpacken Ordner aus.
 
-## Hi there I am fab3F.
-
-Go to my GitHub Page [fab3F.github.io](https://fab3F.github.io) or to the EasyFlick Homepage [easyflick.us.to](https://easyflick.us.to) and join the [Discord Server](https://fab3f.github.io/link/discord)
-
-
-# EasyFlick
-
-Hier bei EasyFlick und auf der [EasyFlick Homepage](https://easyflick.us.to) findest du alle möglichen Downloads zu Minecraft Ressourcenpaketen, Wallpapern und anderen Dingen. Viel Spaß!
-
-
-## Was gibt's denn hier Schönes?
-
-EasyFlick ist ein Netzwerk mit vielen **verschiedenen Möglichkeiten** in Richtung Gaming, Coding oder auch mal Dokumentationen mit Tipps und Tricks.
-
-
-### Minecraft
-
-```markdown
-- Selbsterstelle Ressourcenpakete
-- Eigene Plugins
-- Texturepacks
-- und vieles mehr...
-```
-
-### Der EasyFlick [Discord](https://fab3f.github.io/link/discord)
-
-```markdown
-Wir haben natürlich auch einen Discord, deswegen kommt gerne auf den Discord. 
-Dort gibt es viele nette Menschen und eure Fragen werden hier am schnellsten beantwortet! Außerdem
-
-- einen eigenen Discord Bot
-- Zocken mit Freunden
-- Minigames wie TicTacToe
-- Musikbots
-- und natürlich einen schnellen Support!
-```
-
-<a href="https://fab3F.github.io/link/discord">
-         <img alt="EasyFlick Discord" src="https://discord.com/api/guilds/824334386786074634/widget.png?style=banner2">
-</a>
-
-### Die EasyFlick [Homepage](https://easyflick.us.to)
-
-```markdown
-Auf der Homepage gibt es die ganzen Downloads zu den besagten Projekten. 
-```
-
-## Support oder Kontakt
+## Hilfe und Kontakt
 
 Du hast ein Problem mit einem unserer Dienste oder möchtest eine Frage loswerden? Dann komm doch gerne auf den [EasyFlick Discord](https://fab3f.github.io/link/discord)! Dort kannst du im extra dafür angelegten _Support-Channel_ nachfragen. Oder du schreibst eine E-Mail an **fab3F@programmer.net**
