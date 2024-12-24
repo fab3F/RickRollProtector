@@ -124,7 +124,25 @@ const rickrolls = [
   "-p7XUf4GvVU",
   "VmBOL3nfee8",
   "M3DvMiHxckA",
-  "nsCIeklgp1M"
+  "nsCIeklgp1M",
+  "tNpECYA5VXo",
+  "Svj1bZz2mXw",
+  "fMCN-b0ic_k",
+  "hB7CDrVnNCs",
+  "LWlZ6Vd_0c4",
+  "ub82Xb1C8os",
+  "IO9XlQrEt2Y",
+  "3HrSN7176XI",
+  "-51AfyMqnpI",
+  "0-16Z3GwNk4",
+  "d0tGBCCE0lc",
+  "CttYJgr9vgQ",
+  "v7ScGV5128A",
+  "5q0gJs2eYB4",
+  "F4qicK39ISc",
+  "QB7ACr7pUuE",
+  "LBIDhZJpD6s",
+  "MH63dQUSUnw"
 ];
 
 if(typeof location !== 'undefined' && rickrolls.some(id => location.href.includes(id)) && !location.href.includes("rickrollprotector=bypass")) {

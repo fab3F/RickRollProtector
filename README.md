@@ -8,7 +8,7 @@
 # RickRollProtector
 Hier bei [https://fab3F.github.io/rickrollprotector](https://fab3F.github.io/rickrollprotector) kannst du alle wichtigen Informationen zu dem Addon einsehen!
 Mit diesem Addon wirst du nie wieder gerickrolled! Denn es schützt dich durch eine Warnung vor unbewusstem Aufrufen eines RickRolls. Damit bist du auf der sicheren Seite!
-Wenn es weitere Links gibt, die gesperrt werden sollen, sende diese bitte an **support@help.info.gf**. Danke!
+Wenn es weitere Links gibt, die gesperrt werden sollen, sende diese bitte an **fab3F@programmer.net**. Danke!
 
 Firefox Addon: https://addons.mozilla.org/de/firefox/addon/rickrollprotector/
 
@@ -68,4 +68,4 @@ Auf der Homepage gibt es die ganzen Downloads zu den besagten Projekten.
 
 ## Support oder Kontakt
 
-Du hast ein Problem mit einem unserer Dienste oder möchtest eine Frage loswerden? Dann komm doch gerne auf den [EasyFlick Discord](https://fab3f.github.io/link/discord)! Dort kannst du im extra dafür angelegten _Support-Channel_ nachfragen. Oder du schreibst eine E-Mail an **support@help.info.gf**
+Du hast ein Problem mit einem unserer Dienste oder möchtest eine Frage loswerden? Dann komm doch gerne auf den [EasyFlick Discord](https://fab3f.github.io/link/discord)! Dort kannst du im extra dafür angelegten _Support-Channel_ nachfragen. Oder du schreibst eine E-Mail an **fab3F@programmer.net**
